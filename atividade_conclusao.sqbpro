@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/PICHAU/Desktop/Programação/SQLiteDatabaseBrowserPortable/atividade_conclusao.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3965"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="4" parent="0"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainPEDIDO"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="AEROPORTO" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="77"/><column index="2" value="148"/><column index="3" value="184"/><column index="4" value="72"/><column index="5" value="63"/><column index="6" value="66"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="CARGA" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="87"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="CLIENTES" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="91"/><column index="2" value="84"/><column index="3" value="40"/><column index="4" value="48"/><column index="5" value="133"/><column index="6" value="40"/><column index="7" value="66"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="EMPRESA_AVIACAO" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="103"/><column index="2" value="107"/><column index="3" value="66"/><column index="4" value="40"/><column index="5" value="66"/><column index="6" value="96"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="PEDIDO" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="89"/><column index="2" value="77"/><column index="3" value="87"/><column index="4" value="103"/><column index="5" value="91"/><column index="6" value="88"/><column index="7" value="129"/><column index="8" value="134"/><column index="9" value="86"/><column index="10" value="85"/><column index="11" value="96"/><column index="12" value="106"/><column index="13" value="137"/><column index="14" value="66"/><column index="15" value="132"/><column index="16" value="70"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">--AEROPORTO
+INSERT INTO AEROPORTO VALUES (1111, 'TABAJARA', 'AEROTABAJARA@GMAIL.COM', 12365987, 12021201, 74598621);
+INSERT INTO AEROPORTO VALUES (2222, 'C&amp;A', 'AEROPORTOC&amp;A@GMAIL.COM', 45691230, 01476589, 44459510);
+INSERT INTO AEROPORTO VALUES (3333, 'NOVE AVIÕES', '9AVI@GMAIL.COM', 28285947, 55694578, 22656599);
+INSERT INTO AEROPORTO VALUES (4444, 'QUERO VIAGEM', 'QVIAGEM@GMAIL.COM', 54689784, 53201458, 14141520);
+INSERT INTO AEROPORTO VALUES (5555, 'NIGHT VIAGENS', 'NIGHTVIAGEM@GMAIL.COM', 48798645, 85410235, 02514141);
+INSERT INTO AEROPORTO VALUES (6666, 'LIGERINHO DESPACHO', 'LDESPACHO@GMAIL.COM', 14548798, 12441011, 01102569);
+INSERT INTO AEROPORTO VALUES (7777, 'DEVAGAR E SEMPRE CIA', 'DESCIA@GMAIL.COM', 21547777, 98906321, 47854152);
+INSERT INTO AEROPORTO VALUES (8888, 'VEM E VOLTA', 'VEV@GMAIL.COM', 48798645, 00005120, 10255478);
+INSERT INTO AEROPORTO VALUES (9999, 'SISISUSU', 'SISISUSU@GMAIL.COM', 48798645, 90900545, 47745896);
+INSERT INTO AEROPORTO VALUES (1010, 'KLIMATU', 'KLIMATU@GMAIL.COM', 48798645, 65461761, 22365632);
+
+--CARGA
+INSERT INTO CARGA VALUES (1);
+INSERT INTO CARGA VALUES (2);
+INSERT INTO CARGA VALUES (3);
+INSERT INTO CARGA VALUES (4);
+INSERT INTO CARGA VALUES (6);
+INSERT INTO CARGA VALUES (7);
+INSERT INTO CARGA VALUES (8);
+INSERT INTO CARGA VALUES (9);
+INSERT INTO CARGA VALUES (10);
+INSERT INTO CARGA VALUES (11);
+INSERT INTO CARGA VALUES (12);
+INSERT INTO CARGA VALUES (13);
+INSERT INTO CARGA VALUES (14);
+INSERT INTO CARGA VALUES (15);
+INSERT INTO CARGA VALUES (16);
+INSERT INTO CARGA VALUES (17);
+INSERT INTO CARGA VALUES (18);
+INSERT INTO CARGA VALUES (19);
+INSERT INTO CARGA VALUES (20);
+--CLIENTES
+INSERT INTO CLIENTES VALUES (1, 'João Ricardo Andrade', 45456986581, 'JSA@GMAIL.com', '12/02/1987', 65491203, 98746259);
+INSERT INTO CLIENTES VALUES (2, 'José Marinho Cunha', 64503218870, 'JMC@GMAIL.com', '11/11/2000', 14566598, 32016548);
+INSERT INTO CLIENTES VALUES (3, 'Levi Roberto Machado', 01125566698, 'LEVIR@GMAIL.com', '15/04/1950', 98478488, 98699451);
+INSERT INTO CLIENTES VALUES (4, 'Henrique Cardoso Teixeira', 12251154698, 'HECATE@GMAIL.com', '31/01/1974', 12122121, 50005659);
+INSERT INTO CLIENTES VALUES (5, 'Mateus Zeff', 11234458791, 'MZ@GMAIL.com', '06/12/1990', 11817498, 12065497);
+INSERT INTO CLIENTES VALUES (6, 'Mateus Iago Nobrega', 27895689789, 'MIN@GMAIL.com', '05/02/1990', 00320640, 63698598);
+INSERT INTO CLIENTES VALUES (7, 'João Santos', 12121263564, 'JOÃOSANTOS@GMAIL.com', '05/02/1990', 23242568, 11747487);
+INSERT INTO CLIENTES VALUES (8, 'Joélio Pinto', 66656989301, 'ZZESZF@GMAIL.com', '29/09/1999', 98714555, 95632120);
+INSERT INTO CLIENTES VALUES (9, 'Leticia Pinto Aquino Costa', 11114578989, 'LPAC@GMAIL.com', '15/01/2001', 56594787, 12036598);
+INSERT INTO CLIENTES VALUES (10, 'Maria Desaparecida', 66644455578, 'DESAPARECIDA@GMAIL.com', '19/10/1998', 54456362, 01020304);
+INSERT INTO CLIENTES VALUES (11, 'Mario Desaparecido', 66646555578, 'DESAPARECIDO@GMAIL.com', '19/11/1989', 54456626, 05010304);
+INSERT INTO CLIENTES VALUES (12, 'Adailton Cruz', 51200455578, 'ADA@GMAIL.com', '29/07/1998', 54556982, 17780304);
+INSERT INTO CLIENTES VALUES (13, 'Cida Calisto', 66644455578, 'CC@GMAIL.com', '11/02/1944', 54454878, 07878912);
+INSERT INTO CLIENTES VALUES (14, 'Sergio Arriba', 61265489780, 'SERGIOARRIBA@GMAIL.com', '29/11/2000', 48786362, 11020305);
+INSERT INTO CLIENTES VALUES (15, 'Marcos Maquita', 66644197559, 'MMAQUITA@GMAIL.com', '31/12/1999', 65986362, 56020399);
+INSERT INTO CLIENTES VALUES (16, 'Diana Lua', 16869784551, 'DL@GMAIL.com', '12/07/1968', 15977532, 14110698);
+INSERT INTO CLIENTES VALUES (17, 'Luana Quitéria', 14525478955, 'LUANA@GMAIL.com', '21/01/1967', 36996548, 33201544);
+INSERT INTO CLIENTES VALUES (18, 'Ademar Conceição', 35775895620, 'ADMC@GMAIL.com', '16/01/1941', 12354568, 17181314);
+INSERT INTO CLIENTES VALUES (19, 'Carlos Peixoto', 20113658059, 'CPEIXOTO@GMAIL.com', '14/08/1922', 33255569, 21056985);
+INSERT INTO CLIENTES VALUES (20, 'Susana Fabregas', 14147589623, 'SUSIFAB@GMAIL.com', '18/12/1919', 14566690, 94586667);
+
+--EMPRESA_AVIAÇÃO
+INSERT INTO EMPRESA_AVIACAO VALUES(1, 12165647491224, 12366325, 44579658, 12485896, 'RIQUINHOS DE XIQUE XIQUE');
+INSERT INTO EMPRESA_AVIACAO VALUES(2, 10235986475124, 56564421, 56989698, 54898712, 'ATRIBULADOS DE S. GONÇALO');
+INSERT INTO EMPRESA_AVIACAO VALUES(3, 11214554630214, 22032488, 12457889, 66595687, 'ABOBALHADOS DE FSA');
+INSERT INTO EMPRESA_AVIACAO VALUES(4, 17855963200487, 12441024, 54984981, 22365498, 'SARU DE MARACATU');
+INSERT INTO EMPRESA_AVIACAO VALUES(5, 23659863014574, 55689950, 23165848, 21561984, 'CICE DE XURUBINHA');
+
+--PEDIDOS
+INSERT INTO PEDIDO VALUES(1, 1111, 2, 5, 1, 6, 'Cleber Rei', 'Rua Amora Limpa, 24, BA' , '11.5' , '2.0' , '1.1', '19.99', '31/08/2022', 45459874, 21102446359, '02/08/2022');
+INSERT INTO PEDIDO VALUES(2, 2222, 1, 4, 2, 1, 'Mariana Paixão', 'Rua Madeixas de ouro, 1174, BA' , '55.4' , '18.0' , '9.2', '181.99', '01/08/2022', 45454456, 12222461359, '01/08/2022');
+INSERT INTO PEDIDO VALUES(3, 3333, 3, 3, 3, 2, 'Yori Kimaka', 'Cemitério Biriba, 666, BA' , '30.0' , '90.0' , '17.2', '9.99', '30/08/2022', 42446015, 11024148495, '03/08/2022');
+INSERT INTO PEDIDO VALUES(4, 4444, 4, 2, 4, 4, 'Eliete Lima', 'Rua Vida limpa, 01, BA' , '14.3' , '5.0' , '1.2', '100.00', '21/08/2022', 44445687, 4444446359, '04/08/2022');
+INSERT INTO PEDIDO VALUES(5, 1111, 6, 1, 5, 3, 'Rafael Plima', 'Rua Juazeiro, 12, BA' , '18.2' , '59.0' , '99.9', '57.45', '11/08/2022', 55645598, 1105555559, '05/08/2022');
+INSERT INTO PEDIDO VALUES(6, 5555, 5, 4, 6, 5, 'Rick Malavares', 'Rua Cão Sem Dono, 11, SP' , '47.8' , '27.2' , '4.85', '56.99', '02/08/2022', 66963666, 6666666359, '06/08/2022');
+INSERT INTO PEDIDO VALUES(7, 2222, 7, 3, 7, 7, 'Silvandro Malandro', 'Rua Presidente, 100, SP' , '17.0' , '77.76' , '654.92', '779.89', '06/08/2022', 67777666, 6777766359, '07/08/2022');
+INSERT INTO PEDIDO VALUES(8, 3333, 8, 3, 8, 8, 'Emanuela Rosa', 'Rua Parido Ao Nascer, 1001, SP' , '467.2' , '755.2' , '12.47', '9.91', '25/08/2022', 66988866, 6888866359, '08/08/2022');
+INSERT INTO PEDIDO VALUES(9, 5555, 9, 5, 9, 9, 'Rosangela Fogo', 'Rua Viuvo Torto, 14000, SP' , '234.2' , '74.1' , '355.95', '15.49', '22/08/2022', 66999966, 6666699999, '09/08/2022');
+INSERT INTO PEDIDO VALUES(10, 1111, 10, 1, 10, 10, 'Maraisa Trei', 'Rua Cachorro Manco, 2, SP' , '45.3' , '11.1' , '33.97', '39.29', '19/08/2022', 66961010, 6666610109, '10/08/2022');
+INSERT INTO PEDIDO VALUES(11, 5555, 11, 3, 11, 11, 'Maria Amada', 'Rua Vivo , 54, RJ' , '1.2' , '4.1' , '5.99', '17.88', '03/08/2022', 11113666, 1111666359, '07/08/2022');
+INSERT INTO PEDIDO VALUES(12, 3333, 12, 3, 12, 12, 'Juciane Brandão', 'Rua Morto, 66, RJ' , '7.4' , '19.2' , '6.99', '01.55', '04/08/2022', 12963621, 1266216359, '06/08/2022');
+INSERT INTO PEDIDO VALUES(13, 2222, 13, 3, 13, 13, 'Juliane Mota', 'Rua Do Vidente, 147, RJ' , '14.0' , '13.3' , '8.19', '6.11', '05/08/2022', 16963361, 6136666353, '10/08/2022');
+INSERT INTO PEDIDO VALUES(14, 2222, 14, 1, 14, 14, 'Rosa Peixe', 'Rua Do Vicente, 20, RJ' , '9.12' , '65.4' , '1.00', '789.65', '06/08/2022', 41963614, 4166666314, '12/08/2022');
+INSERT INTO PEDIDO VALUES(15, 4444, 15, 2, 15, 15, 'Bruce Martinelli', 'Rua Brasil, 01, RJ' , '0.8' , '9.5' , '2.50', '1000.00', '07/08/2022', 56163655, 5616561355, '14/08/2022');
+INSERT INTO PEDIDO VALUES(16, 3333, 16, 4, 16, 16, 'Adam Wake', 'Rua Quebrada da Laranja, 29, RS' , '1.8' , '54.5' , '222.50', '1100.00', '09/08/2022', 16163655, 5616561355, '16/08/2022');
+INSERT INTO PEDIDO VALUES(17, 4444, 17, 2, 17, 17, 'Mariah Ucla', 'Rua Silva, 30, RS' , '80.0' , '9.4' , '14.50', '2000.00', '11/08/2022', 56163655, 5616561317, '18/08/2022');
+INSERT INTO PEDIDO VALUES(18, 2222, 18, 5, 18, 18, 'Tulio Uban', 'Rua Cruzado, 18, RS' , '96.1' , '2.0' , '25.50', '14000.00', '13/08/2022', 56163655, 1616561385, '20/08/2022');
+INSERT INTO PEDIDO VALUES(19, 1111, 19, 2, 19, 19, 'Marcio Demacia', 'Rua Dom Pedro, 41, RS' , '74.0' , '9.5' , '17.50', '5.00', '15/08/2022', 56163655, 9616561351, '22/08/2022');
+INSERT INTO PEDIDO VALUES(20, 1111, 20, 5, 20, 20, 'Moises Rock', 'Rua Do Bode, 987, RS' , '19.2' , '39.4' , '6.50', '90.00', '17/08/2022', 56163655, 2616561350, '24/08/2022');
+
+CREATE TABLE PEDIDO (
+COD_PEDIDO number(4) PRIMARY KEY,
+COD_AERO number(4),
+COD_CARGA number(4),
+COD_AVIACAO number(4),
+COD_CLIENTE number(4),
+COD_OBJETO number(4),
+NM_DESTINATARIO varchar(80),
+END_DESTINATARIO varchar(80),
+ALT_OBJETO decimal(6,2),
+PES_OBJETO decimal(6,2),
+LARG_OBJETO decimal(6,2),
+VALOR_OBJETO decimal(6,2),
+PREVISAO_ENTREGA date,
+TELEFONE number(8),
+CPF_DESTINATARIO number(11),
+DT_ENVIO date,
+FOREIGN KEY(COD_AERO) REFERENCES AEROPORTO (COD_AERO),
+FOREIGN KEY(COD_CARGA) REFERENCES CARGA (COD_CARGA),
+FOREIGN KEY(COD_CLIENTE) REFERENCES CLIENTES (COD_CLIENTE)
+FOREIGN KEY(COD_AVIACAO) REFERENCES EMPRESA_AVIACAO (COD_AVIACAO)
+);</sql><current_tab id="0"/></tab_sql></sqlb_project>

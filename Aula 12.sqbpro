@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/PICHAU/Downloads/SQLiteDatabaseBrowserPortable/Aula 12.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1229"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,5:mainALUNO"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="ALUNO" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="75"/><column index="2" value="75"/><column index="3" value="77"/><column index="4" value="75"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="DEPARTAMENTO" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="135"/><column index="2" value="137"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">
+--TABELA DE DEPARTAMENTO
+/*CREATE TABLE DEPARTAMENTO (
+CD_DEPARTAMENTO NUMBER (4) PRIMARY KEY, 
+NM_DEPARTAMENTO VARCHAR (80)  
+);*/
+--TABELA DE FUNCIONARIO
+/*CREATE TABLE FUNCIONARIO (
+CD_FUNCIONARIO NUMBER (4) PRIMARY KEY,
+NM_FUNCIONARIO VARCHAR (80),
+CD_DEPARTAMENTO NUMBER(4),
+FOREIGN KEY (CD_DEPARTAMENTO) REFERENCES DEPARTAMENTO (CD_DEPARTAMENTO) 
+);*/
+-- SINTAXE DE FOREIGN KEY (CHAVE ESTRANGEIRA)
+-- FOREIGN KEY (NOME DO CAMPO NA TABELA ATUAL) REFERENCES 'TABELA' (NOME DO CAMPO DA TABELA PAI)
+/*DROP TABLE DEPARTAMENTO;
+DROP TABLE FUNCIONARIO;*/
+
+CREATE TABLE CURSO (
+CD_CURSO NUMBER (4) PRIMARY KEY,
+NM_CURSO VARCHAR (80),
+AREA_CURSO VARCHAR (80)
+);
+
+CREATE TABLE ALUNO (
+CD_ALUNO NUMBER (4) PRIMARY KEY,
+RG_ALUNO VARCHAR (7),
+NM_ALUNO VARCHAR (80),
+CD_CURSO NUMBER (4),
+FOREIGN KEY (CD_CURSO) REFERENCES CURSO (CD_CURSO)
+);
+
+CREATE TABLE DISCIPLINA (
+CD_DISCIPLINA NUMBER (4) PRIMARY KEY,
+NM_DISCIPLINA VARCHAR (80),
+CD_CURSO NUMBER (4),
+FOREIGN KEY (CD_CURSO) REFERENCES CURSO (CD_CURSO)
+);
+
+CREATE TABLE ALUNO_DISCIPLINA (
+CD_ALUNO NUMBER (4) ,
+CD_DISCIPLINA NUMBER (4) ,
+FOREIGN KEY (CD_ALUNO) REFERENCES ALUNO (CD_ALUNO),
+FOREIGN KEY (CD_DISCIPLINA) REFERENCES DISCIPLINA (CD_DISCIPLINA)
+);
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
